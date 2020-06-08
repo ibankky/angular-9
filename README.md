@@ -8,7 +8,7 @@ Run `ng serve`
 Navigate to `http://localhost:4200/`
 
 Login: `http://localhost:4200/login`
-Profile: `http://localhost:4200/login`
+Profile: `http://localhost:4200/profile`
 
 ## Development server
 
