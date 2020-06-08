@@ -1,0 +1,94 @@
+$main-color : #fe1695;
+$white-color : #fff;
+
+
+.main-logo {
+    width:120px;
+    img{
+        width:100%;
+    }
+}
+.btn-login {
+    background-color:$main-color;
+    color:$white-color ;
+    border-radius:15px;
+    width:10em;
+    margin:0 auto;
+    display:block;
+    line-height:2;
+}
+.btn-forgot{
+    margin:0 auto;
+    display:block;
+
+}
+
+.form-control {
+    border-radius:15px;
+    margin:0 auto;
+    display:block;
+    border:solid 2px $main-color;
+    box-shadow:none;
+    outline:none;
+    text-align:center;
+    color:#333;
+}
+.form-password {
+    border-left:none;
+}
+.addon-password{
+    background:none;
+    border:solid 2px $main-color;
+    border-right:none;
+    line-height:0;
+    width:50px;
+    border-radius:15px 0 0 15px;
+    img{
+        margin: 0 auto;
+        width:60%;
+    }
+    
+}
+.input-group > .form-control:not(:first-child){
+    padding-right:2.7em;
+}
+.flag {
+    font-size:1.5em;
+}
+.dropdown-menu {
+    min-width:5em;
+    max-height:15em;
+    overflow-y:scroll;
+}
+.contry {
+    border:solid 2px $main-color;
+    border-right:none;
+    background:none;
+    text-align:center;
+    border-radius:15px 0 0 15px;
+    font-size:1.6em;
+    background: transparent;
+  background: url("/assets/icon/1x/down.png") no-repeat right;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 12px;
+  outline:none;
+  width:50px;
+}
+.form-telephone {
+    border-left:none;
+}
+.btn-regis {
+    background:none;
+    color:#333;
+    margin:5em auto 0;
+    display:block;
+    border-radius:15px;
+    width:100%;
+    border:solid 2px $main-color;
+    line-height:2;
+}
+.input-group-prepend {
+    width:50px;
+    
+}

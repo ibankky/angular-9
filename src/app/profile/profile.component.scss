@@ -1,0 +1,92 @@
+$main-color : #fe1695;
+$bg-secondary: #FE9495;
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.profile-blog {
+   background-image: linear-gradient(to bottom, $main-color , $bg-secondary 35%);
+    height:100vh;
+    padding-top:3em;
+    .profile-top {
+        color:#fff;
+        text-align:center;
+        .img-profile{
+            width:80px;
+            margin:0 auto;
+            display:block;
+            
+        }
+        .profile-name {
+            margin: 0.5em 0;
+        }
+    }
+    .profile-content {
+        background:#fff;
+        height:71vh;
+        border-radius:30px 30px 0 0;
+        padding: 2em 0 0 0;
+    }
+}
+
+.list-group-flush > .list-group-item:last-child {
+    border-bottom-width:1px;
+}
+.list-group-item {
+    .icon{
+        display:inline-block;
+        width:48px;
+        position:relative;
+        top:-4px;
+        img{
+            width:24px;
+            margin:0 auto;
+        }
+    }
+    h5{
+        display:inline-block;
+        line-height:1.8;
+        margin:0;
+    }
+    .icon-right{
+         display:inline-block;
+         float:right;
+         background:none;
+         border:none;
+         img{
+             max-width:20px;
+         }
+    }
+}
+.card-profile {
+    height:210px;
+    background:url("/assets/background/1x/card-bg.png") no-repeat ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+    padding:1em;
+    .name{
+        color:#fff;
+        margin:0.5em 0 0 0;
+    }
+    .detail-list{
+        color:#fff;
+        font-size:0.9em;
+        list-style:none;
+        padding:0.5em 0 0 5px;
+        li{
+            line-height:1.5;
+        }
+        .fa{
+            min-width:1em;
+            text-align:center;
+        }
+    }
+}
+.fixed-top {
+    max-width:1140px;
+    margin:0 auto;
+}
+.card{
+    border:none;
+}
