@@ -14,7 +14,7 @@ import { ProfileComponent } from './profile/profile.component';
     ProfileComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule
   ],
