@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Set Up
 Run `npm install`
-Run `ng serve`
+Run `npm run dev:ssr`
 Navigate to `http://localhost:4200/`
 
 Login: `http://localhost:4200/login`
