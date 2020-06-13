@@ -60,7 +60,7 @@ $bg-secondary: #FE9495;
 }
 .card-profile {
     height:210px;
-    background:url("/assets/background/1x/card-bg.png") no-repeat ;
+    background:url("/assets/images/background/1x/card-bg.png") no-repeat ;
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: 100%;
@@ -71,9 +71,10 @@ $bg-secondary: #FE9495;
     }
     .detail-list{
         color:#fff;
-        font-size:0.9em;
+        font-size:0.7em;
         list-style:none;
         padding:0.5em 0 0 5px;
+        font-weight: 200;
         li{
             line-height:1.5;
         }
@@ -90,11 +91,6 @@ $bg-secondary: #FE9495;
 .card{
     border:none;
 }
-@media only screen and (min-width:1024px)  {
-    .card-profile {
-        width: 32%;
-    }
-}
 
 @media only screen and (min-width:768px)  {
     .card-profile {
@@ -102,10 +98,11 @@ $bg-secondary: #FE9495;
     }
 }
 
-@media only screen and (max-width:1024px)  {
+@media only screen and (min-width:1024px)  {
     .card-profile {
-        width: 40%;
+        width: 32%;
     }
 }
+
 
 

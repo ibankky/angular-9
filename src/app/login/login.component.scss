@@ -66,14 +66,16 @@ $white-color : #fff;
     background:none;
     text-align:center;
     border-radius:15px 0 0 15px;
-    font-size:1.6em;
+    font-size:1.3em;
     background: transparent;
-  background: url("/assets/icon/1x/down.png") no-repeat right;
+  //background: url("/assets/images/icon/1x/down.png") no-repeat right;
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 12px;
   outline:none;
   width:50px;
+  height: 38px;
+  padding: 0 0 0 3px;
 }
 .form-telephone {
     border-left:none;
