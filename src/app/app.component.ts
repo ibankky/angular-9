@@ -9,9 +9,7 @@ declare var $: any;
 })
 export class AppComponent {
   ngOnInit(): void {
-    $(document).ready(() => {
-      console.log('The document ready!');
-    });
+    
   }
 }
 

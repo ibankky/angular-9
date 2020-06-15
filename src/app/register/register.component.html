@@ -1,69 +1,69 @@
-
 <main role="main" class="container">
-    <div class="row">
-       <div class="col-md-8 offset-md-2">
-      
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+
       <form class="mt-3 px-3">
         <h4 class="head-regis">ลงทะเบียน</h4>
         <div class="custom-file">
-            <input type="file" class="custom-file-input" id="customFile">
-            <label class="custom-file-label" for="customFile"> <i class="fa fa-user" aria-hidden="true"></i> </label>
-          </div>
-       <div class="form-group">
-        <div class="row mt-3 no-gutters">
+          <input type="file" class="custom-file-input" id="customFile">
+          <label class="custom-file-label" for="customFile"> <i class="fa fa-user" aria-hidden="true"></i> </label>
+        </div>
+        <div class="form-group">
+          <div class="row mt-3 no-gutters">
             <div class="col-6 padding-25">
-                <label for="InputName1">ชื่อ</label>
-                <input type="text" class="form-control input-name"  id="InputName1">
+              <label for="InputName1">ชื่อ</label>
+              <input type="text" class="form-control input-name" id="InputName1">
             </div>
             <div class="col-6">
-                <label for="InputSurName1">นามสกุล </label>
-                <input type="text" class="form-control" id="InputSurName1">
+              <label for="InputSurName1">นามสกุล </label>
+              <input type="text" class="form-control" id="InputSurName1">
             </div>
-        </div>   
-        <div class="row">
+          </div>
+          <div class="row">
             <div class="col-12">
-                <label for="telphone1">เบอร์โทรศัพท์</label>
-                <div class="input-group">
-                   
-                    <div class="input-group-prepend" >
-                        <select formControlName="contry" class='contry'id="telphone1" >
-                         <option > {{default.emoji}} </option>
-                         <option *ngFor="let result of results">
-                                {{result.emoji}}
-                        </option>
-                        </select>
-                    </div>
-                    <input type="number" class="form-control form-telephone" formControlName="telphone" placeholder="เบอร์โทรศัพท์">
-                 </div>
+              <label for="telphone1">เบอร์โทรศัพท์</label>
+              <div class="input-group">
+
+                <div class="input-group-prepend">
+                  <select formControlName="contry" class='contry' id="telphone1">
+                    <option> {{default.emoji}} </option>
+                    <option *ngFor="let result of results">
+                      {{result.emoji}}
+                    </option>
+                  </select>
+                </div>
+                <input type="number" class="form-control form-telephone" formControlName="telphone"
+                  placeholder="เบอร์โทรศัพท์">
+              </div>
             </div>
-            
+
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label for="password1">รหัสผ่าน</label>
+              <input type="password" class="form-control form-password" id="password1" placeholder="รหัสผ่าน">
+            </div>
+            <div class="col-12">
+              <label for="password2">ยืนยันรหัสผ่าน</label>
+              <input type="password" class="form-control form-password" id="password2" placeholder="รหัสผ่าน">
+            </div>
+          </div>
         </div>
+
+        <button type="button" class="btn btn-regis mx-auto ">ลงทะเบียน</button>
         <div class="row">
-            <div class="col-12">
-                <label for="password1">รหัสผ่าน</label>
-                <input type="password" class="form-control form-password" id="password1" placeholder="รหัสผ่าน">
-            </div>  
-            <div class="col-12">
-                <label for="password2">ยืนยันรหัสผ่าน</label>
-                <input type="password" class="form-control form-password" id="password2"  placeholder="รหัสผ่าน">
-            </div>    
+          <div class="col-12">
+            <label class="custom-checkbox"> By Sign up you agree our <a href="#">Terms and Conditions.</a>
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="col-12">
+            <p class="link-login">Already have an account? <a href="#">Login</a></p>
+          </div>
         </div>
-       </div>
-      
-       <button type="button" class="btn btn-regis mx-auto ">ลงทะเบียน</button>
-       <div class="row">
-           <div class="col-12">
-            <label class="custom-checkbox"> By Sign up you agree our <a href="#">Terms and Conditions.</a> 
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-           </div>
-           <div class="col-12">
-               <p class="link-login">Already have an account? <a href="#">Login</a></p>
-           </div>
-       </div>
-       </form>
-   </div>
+      </form>
     </div>
-   
+  </div>
+
 </main><!-- /.container -->

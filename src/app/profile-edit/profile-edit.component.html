@@ -1,0 +1,156 @@
+<nav class="navbar  fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <!--   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Link</a>
+         </li>
+        
+       </ul>
+       
+     </div> -->
+</nav>
+<main role="main" class="container profile-blog">
+  <div class="row profile-top">
+
+
+
+    <div class="col-md-12">
+      <h4 class="text-center">1st Card</h4>
+      <div class="img-profile">
+        <img class="img-fluid" src="./assets/images/icon/1x/profile-img.png">
+      </div>
+      <h2 class="text-center profile-name">Parkpoom</h2>
+    </div>
+
+  </div>
+
+  <div class="row profile-content">
+
+    <div class="col-md-12">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <div class="icon">
+            <img src="./assets/images/icon/1x/profile.png">
+          </div>
+          <h5>ข้อมูลส่วนตัว</h5>
+          <button type="button" class="icon-right">
+            <img src="./assets/images/icon/1x/pencil.png">
+          </button>
+          <div class="clearfix"></div>
+          <div class="form-group">
+            <div class="row mt-3 no-gutters">
+              <div class="col-6 padding-25">
+                <label for="InputName1">ชื่อ</label>
+                <input type="text" class="form-control input-name" id="InputName1">
+              </div>
+              <div class="col-6">
+                <label for="InputSurName1">นามสกุล </label>
+                <input type="text" class="form-control" id="InputSurName1">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <label for="telphone1">เบอร์โทรศัพท์</label>
+                <div class="input-group">
+
+                  <div class="input-group-prepend">
+                    <select formControlName="contry" class='contry' id="telphone1">
+                      <option> {{default.emoji}} </option>
+                      <option *ngFor="let result of results">
+                        {{result.emoji}}
+                      </option>
+                    </select>
+                  </div>
+                  <input type="number" class="form-control form-telephone" formControlName="telphone"
+                    placeholder="เบอร์โทรศัพท์">
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <label for="email1">อีเมล์</label>
+                <input type="email" class="form-control" id="email1" placeholder="email@email.com">
+              </div>
+              <div class="col-12">
+                <label for="address1">ที่อยู่ (ปักหมุดที่ตั้งของคุณหรือเปิด GPS แล้วกดรีเฟรช)</label>
+                <input type="text" class="form-control" id="address1" placeholder="Search">
+              </div>
+              <div class="col-12 address-info">
+                <label>ตำแหน่ง</label>
+                <p>Lat: 13.7666039</p>
+                <p>Lng: 100.5477187</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=bangkok&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://youtube-iframe.com">youtube-iframe.com</a></div>
+                    <style>
+                      .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                      }
+  
+                      .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 600px;
+                      }
+                    </style>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="icon">
+            <img src="./assets/images/icon/1x/card.png">
+          </div>
+          <h5>Official card</h5>
+          <button type="button" class="icon-right">
+            <img src="./assets/images/icon/1x/plus.png">
+          </button>
+        </li>
+        <li class="list-group-item">
+          <div class="icon">
+            <img src="./assets/images/icon/1x/dna.png">
+          </div>
+          <h5>DNAs </h5>
+          <button type="button" class="icon-right">
+            <img src="./assets/images/icon/1x/plus.png">
+          </button>
+        </li>
+        <li class="list-group-item">
+          <div class="icon">
+            <img src="./assets/images/icon/1x/contact.png">
+          </div>
+          <h5>Contact List</h5>
+          <button type="button" class="icon-right">
+            <img src="./assets/images/icon/1x/plus.png">
+          </button>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-save mx-auto ">บันทึก</button>
+    </div>
+
+  </div>
+</main>

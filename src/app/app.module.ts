@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
+import { ProfileEditComponent } from './profile-edit/profile-edit.component';
+import { OfficialCardComponent } from './official-card/official-card.component';
+import { DnasComponent } from './dnas/dnas.component';
+import { ContactListComponent } from './contact-list/contact-list.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +18,10 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     ProfileComponent,
     RegisterComponent,
+    ProfileEditComponent,
+    OfficialCardComponent,
+    DnasComponent,
+    ContactListComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
